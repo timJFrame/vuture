@@ -1,4 +1,3 @@
-
 //*TASK ONE
 function letterCheck(sentence, letter){
   if (typeof sentence === 'string' && typeof letter === 'string'){
@@ -143,6 +142,17 @@ If a match is found, the matching word is split into letters and all the letters
 The palindromeSentence is joined back together and returned.
 */
 
+//*PART D: BONUS
+/*
+
+<p>I'm not sure if I understood the question correctly, but the answers I'm giving in the bonus section are how the censorCensoredWord function would be used in q application. My apologies if this is incorrect</p>
+
+Scenrio One: Applied to directly data that has been sent back from the database prior to it being rendered to the DOM.
+
+Scenario Two: Used in a onClick event when a user is choosing to make data censored.
+
+Scenario Three: Applied to data depending in a users level of access
+*/
 
 module.exports = {
   letterCheck,
